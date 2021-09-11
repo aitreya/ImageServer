@@ -4,8 +4,8 @@
   "description": "A high speed image processing server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon app.js"
+    "start": "nodemon app.js",
+    "img": "node webpack.config.img.mjs"
   },
   "author": "Aitreya",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "dotenv": "^10.0.0",
     "env": "^0.0.2",
     "express": "^4.17.1",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^6.0.0",
     "mongoose": "^6.0.5",
     "multer": "^1.4.3",
     "nodemon": "^2.0.12",
